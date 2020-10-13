@@ -12,5 +12,13 @@
     <h1>Hello {{ controller_name }}! ✅</h1>
 
     There is still some work to be done...
+
+    <h2>Our team:</h2>
+    <ul>
+        {% for employee in employees %}
+        <li>{{ employee.lastName|upper }} {{ employee.firstName }}</li>
+        {% endfor %}
+    </ul>
+
 </div>
 {% endblock %}

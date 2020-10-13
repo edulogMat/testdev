@@ -12,8 +12,13 @@ class HolidayCheckController extends AbstractController
      */
     public function index()
     {
+        $em = $this->getDoctrine()->getManager();
+        $employeeRepo = $em->getRepository('App:Employee');
+        $tabEmployees = $employeeRepo->findAll();
+
         return $this->render('holiday_check/index.html.twig', [
             'controller_name' => 'HolidayCheckController',
+            'employees' => $tabEmployees
         ]);
     }
 }
