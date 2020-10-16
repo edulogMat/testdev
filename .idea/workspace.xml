@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b15abc6-d371-4820-976e-6285bc3ebfc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/holiday_check/check.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HolidayCheckController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HolidayCheckController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/HolidayRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/HolidayRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/holiday_check/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/holiday_check/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +13,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -134,11 +136,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0b15abc6-d371-4820-976e-6285bc3ebfc9" name="Default Changelist" comment="" />
@@ -147,10 +155,17 @@
       <option name="presentableId" value="Default" />
       <updated>1602622888275</updated>
       <workItem from="1602622889728" duration="1391000" />
+      <workItem from="1602858730213" duration="3264000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="150" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602860654130">
+      <screen x="0" y="23" width="1280" height="731" />
+    </state>
+    <state x="378" y="150" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1280.731/-1920.-257.1920.1057@0.23.1280.731" timestamp="1602860654130" />
   </component>
 </project>

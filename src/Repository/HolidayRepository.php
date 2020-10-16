@@ -19,22 +19,22 @@ class HolidayRepository extends ServiceEntityRepository
         parent::__construct($registry, Holiday::class);
     }
 
-    // /**
-    //  * @return Holiday[] Returns an array of Holiday objects
-    //  */
-    /*
-    public function findByExampleField($value)
+    /**
+    * @return Holiday[] Returns an array of Holiday objects
+    */
+
+    public function findByholiday()
     {
         return $this->createQueryBuilder('h')
-            ->andWhere('h.exampleField = :val')
-            ->setParameter('val', $value)
+            ->select('h.employee')
+            ->where('h.startDate < :now')
+            ->andWhere('h.endDate > :now')
+            ->setParameter('now', new \DateTime())
             ->orderBy('h.id', 'ASC')
-            ->setMaxResults(10)
             ->getQuery()
             ->getResult()
         ;
     }
-    */
 
     /*
     public function findOneBySomeField($value): ?Holiday
